@@ -1,0 +1,13 @@
+name: getanytempfile
+description: Dart package to generate temporary file with any extension or file type in local directory of the device.
+version: 1.0.0
+repository: https://github.com/7span/get-any-temp-file-dart.git
+
+environment:
+  sdk: '>=2.19.0 <3.0.0'
+
+dependencies:
+  path_provider: ^2.0.14
+
+dev_dependencies:
+  lints: ^2.0.1
