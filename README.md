@@ -17,16 +17,19 @@ and the Flutter guide for
 
 ## Features
 
-`getanytempfile.dart` is a Dart package that provides a simple and efficient way to create temporary files of any extension in a temporary directory.
+`getanytempfile.dart` is a Dart package that provides a simple and efficient way to create temporary
+files of any extension in a temporary directory.
 
 ## Installation
 
 Add the following dependency to your pubspec.yaml:
+
 ```dart
-dependencies:
-  getAnyTempFile: ^1.0.0
+dependencies:getAnyTempFile: ^
+1.0
+.0
 ```    
-    
+
 Then run:
 ```$ dart pub get```
 
@@ -37,30 +40,34 @@ void main() {
   var getAnyTempFile = GetAnyTempFile();
 
   ///Generate .png temp file
-  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(prefixName: 'mytemp',fileName: 'getMyTemp')}');
+  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(
+      prefixName: 'mytemp', fileName: 'getMyTemp')}');
 
   ///Generate .jpeg temp file
-  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(prefixName: 'mytemp',fileName: 'getMyTemp',fileType: 'jpeg')}');
+  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(
+      prefixName: 'mytemp', fileName: 'getMyTemp', fileType: 'jpeg')}');
 
   ///Generate .mp4 temp file
-  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(prefixName: 'mytemp',fileName: 'getMyTemp',fileType: 'mp4')}');
+  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(
+      prefixName: 'mytemp', fileName: 'getMyTemp', fileType: 'mp4')}');
 
   ///Generate .mp3 temp file
-  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(prefixName: 'mytemp',fileName: 'getMyTemp',fileType: 'mp3')}');
+  print('getAnyTempFile: ${getAnyTempFile.getAnyTempFile(
+      prefixName: 'mytemp', fileName: 'getMyTemp', fileType: 'mp3')}');
 }
 ```
 
 ## Additional information
 
-getAnyTempFile() method returns a File object that represents the created temporary file. 
-You can specify the extension of the file by providing the extension argument. 
+getAnyTempFile() method returns a File object that represents the created temporary file.
+You can specify the extension of the file by providing the extension argument.
 If not specified, the default extension is .png.
 
 ## Contributors
 
 [Mukund Jogi](https://www.linkedin.com/in/mukund-a-jogi/)
-<a href="https://twitter.com/mukundjogi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter_logo" height="18" width="28" /></a>
-<a href="https://linkedin.com/in/mukund-a-jogi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linedin_logo" height="18" width="28" /></a>
+<a href="https://twitter.com/mukundjogi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="twitter_logo" height="16" width="24" /></a>
+<a href="https://linkedin.com/in/mukund-a-jogi" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="linkedin_logo" height="16" width="24" /></a>
 
 ## Having Issues
 
@@ -69,6 +76,6 @@ File the Issue [here](https://github.com/7span/get-any-temp-file-dart/issues)
 ## Looking to contribute to this package:
 
 **🤘🏻 Then it's Great!**
-Fork the [Repo](https://github.com/7span/get-any-temp-file-dart) 
+Fork the [Repo](https://github.com/7span/get-any-temp-file-dart)
 Update Code, write a meaningful commit message. Send a PR. That's all you need to contribute.
 
