@@ -11,7 +11,7 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-[Pub Version](https://img.shields.io/pub/v/get_any_temp_file?color=blue&label=pub)  ![Dart Version](https://img.shields.io/badge/dart-v2.16.0-blue)
+![Pub Version](https://img.shields.io/badge/pub-0.0.1-blue)  ![Dart Version](https://img.shields.io/badge/dart-v2.19.0-blue)
 
 ### Dart package to generate temporary file with any extension or file type in local directory of the device.
 
@@ -22,11 +22,11 @@ and the Flutter guide for
 ## Installation
 
 Add the following dependency to your pubspec.yaml:
-[comment]: <> (```dart)
-[comment]: <> (dependencies:)
-[comment]: <>   (getAnyTempFile: ^1.0.0)
-[comment]: <> (```)
-
+```dart
+dependencies:
+  getAnyTempFile: ^1.0.0
+```    
+    
 Then run:
 ```$ dart pub get```
 
